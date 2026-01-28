@@ -1,0 +1,33 @@
+references:
+  - "https://en.wikipedia.org/wiki/Mitsubishi_Triton"
+
+generations:
+  - name: "First Generation (L200)"
+    start_year: 1978
+    end_year: 1986
+    description: "The first generation model of Mitsubishi's compact pickup truck was first sold in Japan as the Mitsubishi Forte in September 1978 and continued until late 1986. In export markets, it was known as the L200, Forte, or other names depending on the region. The Dodge Ram 50 and Plymouth Arrow Truck were badge-engineered versions sold by Chrysler Corporation from 1979. The vehicle was available with various engine options including 1.6L, 2.0L petrol, 2.3L diesel, and 2.6L engines. Four-wheel drive was added in 1981."
+
+  - name: "Second Generation (K00/K10/K20/K30)"
+    start_year: 1986
+    end_year: 1996
+    description: "The second generation model was introduced in 1986 for most markets. In Australia, this model launched in October 1986 as the low-cost Triton. In Japan the pickups made their return as the Strada in March 1991. A facelift took place for the 1993 model year, with a new grille and new plastic bumpers. The truck usually has a 2.5 litre diesel or turbo diesel engine. Production continued until 1996, with Japanese domestic market sales continuing into the middle of 1997. In the US it was known as the Mitsubishi Mighty Max or Dodge Ram 50."
+
+  - name: "Third Generation (K50/K60/K70)"
+    start_year: 1996
+    end_year: 2006
+    description: "In 1996, a new generation model was introduced with 2.5-litre turbodiesel engines developing 85 kW. Other engine options include two sixteen-valve fuel injected gasoline engines and a naturally aspirated diesel. The previous 2.6-litre unit was replaced with a new, considerably more powerful 2.4-litre engine with 112 kW. Production ended in 2006, built in Laem Chabang, Thailand. In late 2001 the third generation pickup underwent a facelift with new headlights and other changes. An SUV model developed from this generation was called the Mitsubishi Challenger or Montero Sport."
+
+  - name: "Fourth Generation (KA/KB)"
+    start_year: 2005
+    end_year: 2014
+    description: "The fourth generation Triton was released in 2005. Designed by Akinori Nakanishi, it was built exclusively by Mitsubishi's subsidiary in Thailand and was exported to 140 global markets. It was mostly known as L200 except for Japan and its subsidiary countries' markets. The car had a 2.5-litre turbo-diesel engine developing 100 kW. In Japan, the Triton was exclusively equipped with 3.5-litre petrol engine and 4-speed automatic transmission and was sold from 2006 to 2011. A facelift occurred in 2011 with new front fascia and other updates."
+
+  - name: "Fifth Generation (KJ/KK/KL)"
+    start_year: 2014
+    end_year: 2023
+    description: "In 2014, Mitsubishi unveiled the fifth-generation Triton/L200/Strada which went on sale in early 2015 (Asia-Pacific) and late 2015 (Europe and the Caribbean). Since 2015, it shares underpinnings with the rebadged Fiat Fullback for European and Middle East markets. The Triton was refreshed for the 2019 model year at the 2018 Thailand International Motor Expo with new front fascia inspired from the Pajero/Montero Sport, Eclipse Cross and Xpander, new teardrop taillight design, and slight interior changes. This generation received 4 stars from Euro NCAP in 2015."
+
+  - name: "Sixth Generation (LC/MV)"
+    start_year: 2023
+    end_year: null
+    description: "The sixth-generation Triton was unveiled on 26 July 2023, featuring the 'Beast Mode' design concept previewed as the XRT Concept at the 2023 Bangkok International Motor Show. The interior follows the 'Horizontal Axis' concept with geometric shapes and Mitsubishi Touch approach. It features a new 4N16 turbocharged diesel engine with three power output options: 150 PS, 184 PS (Hyper Power), and 204 PS (Hyper Power X2). It received 4 stars from ASEAN NCAP in 2023. Production began in 2023 and continues to present."
