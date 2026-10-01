@@ -4,8 +4,14 @@ test_cases:
     TRITON_INJECTION_QTY: 0
   response: '7E80761510000000000'
 - expected_values:
+    TRITON_INJECTION_QTY: 1.5
+  response: 7E8076151032323005C
+- expected_values:
     TRITON_INJECTION_QTY: 19.5
   response: '7E80761512749000000'
+- expected_values:
+    TRITON_INJECTION_QTY: 42
+  response: 7E8076151540000008C
 - expected_values:
     TRITON_INJECTION_QTY: 73.5
   response: '7E80761519300000000'

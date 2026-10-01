@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     TRITON_DPF_REGEN: 0
   response: '7E8056159004100'
+- expected_values:
+    TRITON_DPF_REGEN: 129
+  response: '7E8056159810100'
