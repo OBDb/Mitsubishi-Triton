@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.2105|fc=1
+test_cases:
+- expected_values:
+    TRITON_CVT_LU_SOLENOID_OUTPUT_MA: 0
+  response: '7E9056105000001'

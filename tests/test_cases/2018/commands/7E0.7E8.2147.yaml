@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2147
+test_cases:
+- expected_values:
+    TRITON_EGR_VALVE_DUTY: 0
+  response: '7E806614700000000'
+- expected_values:
+    TRITON_EGR_VALVE_DUTY: 90.5982
+  response: 7E8066147B3E70000
+- expected_values:
+    TRITON_EGR_VALVE_DUTY: 79.6166
+  response: 7E8066147CDCB0000

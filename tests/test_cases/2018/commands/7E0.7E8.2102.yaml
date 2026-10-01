@@ -1,0 +1,52 @@
+command_id: 7E0.7E8.2102
+test_cases:
+- expected_values:
+    TRITON_BP: 20.8278
+    TRITON_MPI_ECT: 45
+    TRITON_MPI_IAT: 8
+  response: 7E807610230556C39CE
+- expected_values:
+    TRITON_BP: 20.24925
+    TRITON_MPI_ECT: 82
+    TRITON_MPI_IAT: 9
+  response: 7E8076102317A694CD1
+- expected_values:
+    TRITON_BP: 14.84945
+    TRITON_MPI_ECT: 33
+    TRITON_MPI_IAT: 11
+  response: 7E807610233494D34CD
+- expected_values:
+    TRITON_BP: 21.5992
+    TRITON_MPI_ECT: 29
+    TRITON_MPI_IAT: 19
+  response: 7E80761023B45703ACC
+- expected_values:
+    TRITON_BP: 14.46375
+    TRITON_MPI_ECT: 37
+    TRITON_MPI_IAT: 22
+  response: 7E80761023E4D4B41CB
+- expected_values:
+    TRITON_BP: 14.46375
+    TRITON_MPI_ECT: 76
+    TRITON_MPI_IAT: 23
+  response: 7E80761023F744B50CA
+- expected_values:
+    TRITON_BP: 38.57
+    TRITON_MPI_ECT: 87
+    TRITON_MPI_IAT: 30
+  response: 7E8076102467FC865CB
+- expected_values:
+    TRITON_BP: 15.8137
+    TRITON_MPI_ECT: 89
+    TRITON_MPI_IAT: 34
+  response: 7E80761024A815261CB
+- expected_values:
+    TRITON_BP: 14.6566
+    TRITON_MPI_ECT: 83
+    TRITON_MPI_IAT: 46
+  response: 7E8076102567B4C72CC
+- expected_values:
+    TRITON_BP: 14.6566
+    TRITON_MPI_ECT: 79
+    TRITON_MPI_IAT: 47
+  response: 7E807610257774C6ECD

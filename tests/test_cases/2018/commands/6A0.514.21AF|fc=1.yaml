@@ -1,0 +1,8 @@
+command_id: 6A0.514.21AF|fc=1
+test_cases:
+- expected_values:
+    TRITON_DASHBOARD_V: 8.3
+  response: 5140361AF53
+- expected_values:
+    TRITON_DASHBOARD_V: 14.2
+  response: 5140361AF8E

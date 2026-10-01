@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2149
+test_cases:
+- expected_values:
+    TRITON_FUEL_T: 14
+  response: '7E80761490000000036'
+- expected_values:
+    TRITON_FUEL_T: 73
+  response: '7E80761490000000071'

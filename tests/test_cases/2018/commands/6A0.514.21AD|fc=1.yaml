@@ -1,0 +1,14 @@
+command_id: 6A0.514.21AD|fc=1
+test_cases:
+- expected_values:
+    TRITON_ODO: 32257
+  response: 5140561AD007E01
+- expected_values:
+    TRITON_ODO: 32513
+  response: 5140561AD007F01
+- expected_values:
+    TRITON_ODO: 2325761
+  response: 5140561AD237D01
+- expected_values:
+    TRITON_ODO: 16743681
+  response: 5140561ADFF7D01

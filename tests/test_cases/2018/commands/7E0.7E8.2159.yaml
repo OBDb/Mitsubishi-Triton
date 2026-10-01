@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2159
+test_cases:
+- expected_values:
+    TRITON_DPF_REGEN: 0
+  response: '7E8056159000100'
+- expected_values:
+    TRITON_DPF_REGEN: 0
+  response: '7E8056159000110'
+- expected_values:
+    TRITON_DPF_REGEN: 0
+  response: '7E8056159004100'

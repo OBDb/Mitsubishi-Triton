@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.214C
+test_cases:
+- expected_values:
+    TRITON_FUEL_RAIL_PRES: 0
+  response: 7E807614C0000008102
+- expected_values:
+    TRITON_FUEL_RAIL_PRES: 4061.12
+  response: 7E807614C231C5C8102
+- expected_values:
+    TRITON_FUEL_RAIL_PRES: 18130
+  response: 7E807614C797D358102
