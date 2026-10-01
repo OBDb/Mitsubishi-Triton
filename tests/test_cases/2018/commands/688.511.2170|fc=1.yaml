@@ -1,0 +1,14 @@
+command_id: 688.511.2170|fc=1
+test_cases:
+- expected_values:
+    TRITON_AC_A_C_COMPRESSOR_DRIVE_FLAG: 0
+  response: '5110761700000000000'
+- expected_values:
+    TRITON_AC_A_C_COMPRESSOR_DRIVE_FLAG: 0
+  response: '5110761700000040000'
+- expected_values:
+    TRITON_AC_A_C_COMPRESSOR_DRIVE_FLAG: 1
+  response: '5110761700100000000'
+- expected_values:
+    TRITON_AC_A_C_COMPRESSOR_DRIVE_FLAG: 1
+  response: '5110761700100040000'

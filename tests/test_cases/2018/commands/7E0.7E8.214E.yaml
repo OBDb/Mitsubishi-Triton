@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.214E
+test_cases:
+- expected_values:
+    TRITON_AC_COMPRESSOR: 0
+  response: 7E807614E3280000200
+- expected_values:
+    TRITON_AC_COMPRESSOR: 0
+  response: 7E807614E9200000200
+- expected_values:
+    TRITON_AC_COMPRESSOR: 0
+  response: 7E807614E9200000208
+- expected_values:
+    TRITON_AC_COMPRESSOR: 1
+  response: 7E807614E920000D200
+- expected_values:
+    TRITON_AC_COMPRESSOR: 0
+  response: 7E807614E9200850200
+- expected_values:
+    TRITON_AC_COMPRESSOR: 0
+  response: 7E807614E92C3000200
+- expected_values:
+    TRITON_AC_COMPRESSOR: 0
+  response: 7E807614EB280000200

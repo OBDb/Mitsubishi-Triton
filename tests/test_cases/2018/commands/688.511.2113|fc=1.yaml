@@ -1,0 +1,26 @@
+command_id: 688.511.2113|fc=1
+test_cases:
+- expected_values:
+    TRITON_AC_RPM: 0
+    TRITON_AC_VSS: 0
+  response: '5110761130000000000'
+- expected_values:
+    TRITON_AC_RPM: 1791
+    TRITON_AC_VSS: 250
+  response: 5110761135E06FF2BC2
+- expected_values:
+    TRITON_AC_RPM: 1928
+    TRITON_AC_VSS: 250
+  response: 5110761136207882F5D
+- expected_values:
+    TRITON_AC_RPM: 1979
+    TRITON_AC_VSS: 250
+  response: 5110761136207BB20FE
+- expected_values:
+    TRITON_AC_RPM: 3050
+    TRITON_AC_VSS: 250
+  response: 511076113A00BEA2361
+- expected_values:
+    TRITON_AC_RPM: 834
+    TRITON_AC_VSS: 250
+  response: 511076113A803420F71

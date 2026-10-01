@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.21A8
+test_cases:
+- expected_values:
+    TRITON_COOLING_FAN_DUTY: 0
+  response: 7E80461A80000
+- expected_values:
+    TRITON_COOLING_FAN_DUTY: 0
+  response: 7E80461A86000

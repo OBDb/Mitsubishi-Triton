@@ -1,0 +1,17 @@
+command_id: 6A0.514.21A3|fc=1
+test_cases:
+- expected_values:
+    TRITON_FLI: 13
+  response: 5140561A303041D
+- expected_values:
+    TRITON_FLI: 100
+  response: 5140561A304037F
+- expected_values:
+    TRITON_FLI: 5
+  response: 5140561A31F0415
+- expected_values:
+    TRITON_FLI: 61
+  response: 5140561A34A014D
+- expected_values:
+    TRITON_FLI: 57
+  response: 5140561A3FF0149

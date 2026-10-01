@@ -1,0 +1,5 @@
+command_id: 7B6.7B7.2113|fc=1
+test_cases:
+- expected_values:
+    TRITON_AWC_IG1: 1
+  response: 7B703611301
