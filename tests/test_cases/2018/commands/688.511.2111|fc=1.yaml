@@ -1,0 +1,8 @@
+command_id: 688.511.2111|fc=1
+test_cases:
+- expected_values:
+    TRITON_AC_AAT: -40
+  response: '5110761110000000000'
+- expected_values:
+    TRITON_AC_AAT: 37.5
+  response: 5110761119B00000000

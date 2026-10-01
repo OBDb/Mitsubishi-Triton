@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2112
+test_cases:
+- expected_values:
+    TRITON_MPI_TGT_THROTTLE_CTRL: 5
+    TRITON_MPI_THROTTLE_CTRL_SERVO: 0
+  response: |-
+    7E810086112AECA0084
+    7E82100280000000000

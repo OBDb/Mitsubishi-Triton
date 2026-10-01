@@ -1,0 +1,27 @@
+command_id: 7B6.7B7.2130|fc=1
+test_cases:
+- expected_values:
+    TRITON_AWC_MILEAGE: 6758.5
+  response: |-
+    7B7100961303B8D0108
+    7B7210108F23B8D0108
+- expected_values:
+    TRITON_AWC_MILEAGE: 6758.5
+  response: |-
+    7B7100961303B8F0108
+    7B7210108F23B8F0108
+- expected_values:
+    TRITON_AWC_MILEAGE: 6758.5
+  response: |-
+    7B7100961303B900108
+    7B7210108F23B900108
+- expected_values:
+    TRITON_AWC_MILEAGE: 6758.5
+  response: |-
+    7B7100961303BE00108
+    7B7210108F23BE00108
+- expected_values:
+    TRITON_AWC_MILEAGE: 6758.5
+  response: |-
+    7B7100961303BE30108
+    7B7210108F23BE30108
