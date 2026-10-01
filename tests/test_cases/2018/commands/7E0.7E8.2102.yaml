@@ -16,20 +16,20 @@ test_cases:
     TRITON_MPI_IAT: 11
   response: 7E807610233494D34CD
 - expected_values:
+    TRITON_BP: 20.4421
+    TRITON_MPI_ECT: 83
+    TRITON_MPI_IAT: 15
+  response: 7E8076102377B6A47CA
+- expected_values:
+    TRITON_BP: 10.60675
+    TRITON_MPI_ECT: 84
+    TRITON_MPI_IAT: 15
+  response: 7E8076102377C374ECE
+- expected_values:
     TRITON_BP: 21.5992
     TRITON_MPI_ECT: 29
     TRITON_MPI_IAT: 19
   response: 7E80761023B45703ACC
-- expected_values:
-    TRITON_BP: 14.46375
-    TRITON_MPI_ECT: 37
-    TRITON_MPI_IAT: 22
-  response: 7E80761023E4D4B41CB
-- expected_values:
-    TRITON_BP: 14.46375
-    TRITON_MPI_ECT: 76
-    TRITON_MPI_IAT: 23
-  response: 7E80761023F744B50CA
 - expected_values:
     TRITON_BP: 38.57
     TRITON_MPI_ECT: 87
