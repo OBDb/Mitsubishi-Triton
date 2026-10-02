@@ -1,0 +1,18 @@
+command_id: 7E0.7E8.215B
+test_cases:
+- expected_values:
+    TRITON_DPF_MAX_T_2: 1090
+    TRITON_EXH_GAS_T_AFTER_DPF: 165
+  response: 7E807615B2831499500
+- expected_values:
+    TRITON_DPF_MAX_T_2: 1090
+    TRITON_EXH_GAS_T_AFTER_DPF: 145
+  response: 7E807615B2833459500
+- expected_values:
+    TRITON_DPF_MAX_T_2: 1090
+    TRITON_EXH_GAS_T_AFTER_DPF: 470
+  response: 7E807615B2885869500
+- expected_values:
+    TRITON_DPF_MAX_T_2: 1090
+    TRITON_EXH_GAS_T_AFTER_DPF: 335
+  response: 7E807615B28866B9500

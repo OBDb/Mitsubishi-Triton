@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2109
+test_cases:
+- expected_values:
+    TRITON_APS_CLOSED_LEARN: 32.57004
+  response: 7E8066109B38F0000
+- expected_values:
+    TRITON_APS_CLOSED_LEARN: 32.64862
+  response: 7E8066109B3F60000
+- expected_values:
+    TRITON_APS_CLOSED_LEARN: 34.55978
+  response: 7E8066109BDBF0000

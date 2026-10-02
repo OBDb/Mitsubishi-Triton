@@ -1,0 +1,16 @@
+command_id: 7E0.7E8.2115
+test_cases:
+- expected_values:
+    TRITON_DPF_MAX_T_1: 850
+    TRITON_DPF_ODO: 97954
+    TRITON_DPF_SOOT: 0
+  response: |-
+    7E810086115017EA200
+    7E8217D000000000000
+- expected_values:
+    TRITON_DPF_MAX_T_1: 850
+    TRITON_DPF_ODO: 97992
+    TRITON_DPF_SOOT: 0
+  response: |-
+    7E810086115017EC800
+    7E8217D000000000000

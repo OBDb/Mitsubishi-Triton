@@ -1,0 +1,10 @@
+command_id: 7E0.7E8.2128
+test_cases:
+- expected_values:
+    TRITON_DPF_MAX_T_3: 770
+    TRITON_DPF_MAX_T_4: 720
+    TRITON_DPF_MAX_T_5: 720
+    TRITON_DPF_MAX_T_PREVIOUS: 750
+  response: |-
+    7E81008612800007375
+    7E82170700000000000

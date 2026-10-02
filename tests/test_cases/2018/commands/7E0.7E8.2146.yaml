@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2146
+test_cases:
+- expected_values:
+    TRITON_BAT_T: -40
+  response: 7E80761461200009C40
+- expected_values:
+    TRITON_BAT_T: -40
+  response: 7E80761464000009C40

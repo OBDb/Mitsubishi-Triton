@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.214B
+test_cases:
+- expected_values:
+    TRITON_EP_P_C_O: 0.6
+    TRITON_OE_PE_P_C: -11
+  response: 7E804614B7506
+- expected_values:
+    TRITON_EP_P_C_O: 1.6
+    TRITON_OE_PE_P_C: -5
+  response: 7E804614B7B10
+- expected_values:
+    TRITON_EP_P_C_O: 0
+    TRITON_OE_PE_P_C: 0
+  response: 7E804614B8000
