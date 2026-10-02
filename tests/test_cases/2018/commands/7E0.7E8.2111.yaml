@@ -1,0 +1,22 @@
+command_id: 7E0.7E8.2111
+test_cases:
+- expected_values:
+    TRITON_DPF_SOOT_1: 0
+    TRITON_DPF_SOOT_P_METHOD_G_L: 0.95
+    TRITON_DPF_SOOT_SUM: 0.1
+  response: '7E80761111400021300'
+- expected_values:
+    TRITON_DPF_SOOT_1: 40
+    TRITON_DPF_SOOT_P_METHOD_G_L: 3
+    TRITON_DPF_SOOT_SUM: 0.25
+  response: 7E80761111404053C03
+- expected_values:
+    TRITON_DPF_SOOT_1: 40
+    TRITON_DPF_SOOT_P_METHOD_G_L: 3
+    TRITON_DPF_SOOT_SUM: 0.3
+  response: 7E80761111404063C03
+- expected_values:
+    TRITON_DPF_SOOT_1: 40
+    TRITON_DPF_SOOT_P_METHOD_G_L: 3.05
+    TRITON_DPF_SOOT_SUM: 0.3
+  response: 7E80761111404063D04

@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.214A
+test_cases:
+- expected_values:
+    TRITON_CYCLE_CONS: 0
+  response: 7E806614A00284E00
+- expected_values:
+    TRITON_CYCLE_CONS: 4
+  response: 7E806614A082E3C0F
+- expected_values:
+    TRITON_CYCLE_CONS: 12.5
+  response: 7E806614A194A4310
+- expected_values:
+    TRITON_CYCLE_CONS: 18
+  response: 7E806614A243A3E1E
+- expected_values:
+    TRITON_CYCLE_CONS: 62.5
+  response: 7E806614A7D28BF15
+- expected_values:
+    TRITON_CYCLE_CONS: 63
+  response: 7E806614A7E28AD15
