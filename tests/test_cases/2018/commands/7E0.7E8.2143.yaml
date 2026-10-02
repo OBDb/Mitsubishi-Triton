@@ -1,0 +1,12 @@
+command_id: 7E0.7E8.2143
+test_cases:
+- expected_values:
+    TRITON_O_E_P_C_O_O_P_1: 0
+    TRITON_O_E_P_C_O_O_P_2: 0
+    TRITON_O_E_P_C_O_O_P_3: 0
+  response: '7E8056143000000'
+- expected_values:
+    TRITON_O_E_P_C_O_O_P_1: 0
+    TRITON_O_E_P_C_O_O_P_2: 0
+    TRITON_O_E_P_C_O_O_P_3: 2.4
+  response: '7E8056143000018'

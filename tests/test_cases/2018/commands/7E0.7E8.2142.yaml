@@ -1,0 +1,37 @@
+command_id: 7E0.7E8.2142
+test_cases:
+- expected_values:
+    TRITON_SMALL_INJ_LEARN: 256
+  response: |-
+    7E81008614200000000
+    7E821FF030000000000
+- expected_values:
+    TRITON_SMALL_INJ_LEARN: 2
+  response: |-
+    7E81008614200640064
+    7E82101030000000000
+- expected_values:
+    TRITON_SMALL_INJ_LEARN: 3
+  response: |-
+    7E81008614200FB0306
+    7E82102030000000000
+- expected_values:
+    TRITON_SMALL_INJ_LEARN: 1
+  response: |-
+    7E81008614200FD02B8
+    7E82100030000000000
+- expected_values:
+    TRITON_SMALL_INJ_LEARN: 4
+  response: |-
+    7E81008614200FF0285
+    7E82103030000000000
+- expected_values:
+    TRITON_SMALL_INJ_LEARN: 4
+  response: |-
+    7E81008614201000281
+    7E82103030000000000
+- expected_values:
+    TRITON_SMALL_INJ_LEARN: 3
+  response: |-
+    7E810086142013F01FC
+    7E82102030000000000

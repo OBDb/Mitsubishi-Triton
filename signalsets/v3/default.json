@@ -207,11 +207,11 @@
     {"id": "TRITON_MPI_DETONATION_RETARD",       "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 90,  "mul": 90,  "div": 255, "unit": "scalar"  }, "name": "Detonation retard"},
     {"id": "TRITON_MPI_DETONATION_CTRL_LEARNED", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Detonation control learned"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "09"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "09"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TRITON_APS_CLOSED_LEARN", "path": "Engine", "fmt": { "len": 16, "max": 47.49, "min": -2.5, "mul": 0.0007629394, "add": -2.5, "unit": "volts" }, "name": "Accelerator pedal closed position learning, main"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "10"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "10"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TRITON_EXH_GAS_T",      "path": "Engine", "fmt": {           "len": 8, "max": 1075, "min": -200, "mul": 5,           "add": -200, "unit": "celsius"    }, "name": "Exhaust gas temperature"},
     {"id": "TRITON_CAT_T",          "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 1075, "min": -200, "mul": 5,           "add": -200, "unit": "celsius"    }, "name": "Catalyst temperature"},
@@ -219,7 +219,7 @@
     {"id": "TRITON_DPF_DIFF_P_7E0", "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 117,  "min": -10,            "div": 2, "add": -10,  "unit": "kilopascal" }, "name": "Diesel particulate filter differential pressure"},
     {"id": "TRITON_NTC_T",          "path": "Engine", "fmt": {"bix": 40, "len": 8, "max": 1075, "min": -200, "mul": 5,           "add": -200, "unit": "celsius"    }, "name": "Exhaust thermistor temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "11"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "11"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TRITON_DPF_SOOT_1",            "path": "Trips",  "fmt": {"bix": 8,  "len": 8, "max": 2550,  "mul": 10,            "unit": "kilometers" }, "name": "Diesel particulate filter soot accumulation for distance 1"},
     {"id": "TRITON_DPF_SOOT_SUM",          "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 12.75,            "div": 20, "unit": "scalar"     }, "name": "Diesel particulate filter soot load, summation method"},
@@ -230,7 +230,7 @@
     {"id": "TRITON_MPI_TGT_THROTTLE_CTRL",   "path": "Engine", "fmt": {           "len": 16, "max": 5,               "div": 512, "unit": "volts"   }, "name": "Target throttle control"},
     {"id": "TRITON_MPI_THROTTLE_CTRL_SERVO", "path": "Engine", "fmt": {"bix": 16, "len": 8,  "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Throttle control servo"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "15"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "15"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TRITON_DPF_ODO",     "path": "Trips",  "fmt": {           "len": 24, "max": 16777215,                                      "unit": "kilometers" }, "name": "Diesel particulate filter odometer"},
     {"id": "TRITON_DPF_SOOT",    "path": "Engine", "fmt": {"bix": 24, "len": 8,  "max": 255,                                           "unit": "unknown"    }, "name": "Diesel particulate filter soot"},
@@ -258,24 +258,24 @@
     {"id": "TRITON_MPI_FUEL_PUMP_RELAY",      "path": "Fuel",   "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Fuel pump relay"},
     {"id": "TRITON_MPI_A_C_COMPRESSOR_RELAY", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "A/C compressor relay"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "28"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "28"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TRITON_DPF_MAX_T_PREVIOUS", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 2150, "min": -400, "mul": 10, "add": -400, "unit": "celsius" }, "name": "Diesel particulate filter, maximum temperature, previous"},
     {"id": "TRITON_DPF_MAX_T_3",        "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 2150, "min": -400, "mul": 10, "add": -400, "unit": "celsius" }, "name": "Diesel particulate filter, maximum temperature 3"},
     {"id": "TRITON_DPF_MAX_T_4",        "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 2150, "min": -400, "mul": 10, "add": -400, "unit": "celsius" }, "name": "Diesel particulate filter, maximum temperature 4"},
     {"id": "TRITON_DPF_MAX_T_5",        "path": "Engine", "fmt": {"bix": 40, "len": 8, "max": 2150, "min": -400, "mul": 10, "add": -400, "unit": "celsius" }, "name": "Diesel particulate filter, maximum temperature 5"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "42"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "42"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TRITON_SMALL_INJ_LEARN", "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 256, "add": 1, "unit": "scalar" }, "name": "Small injection quantity learning"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "43"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "43"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TRITON_O_E_P_C_O_O_P_1", "path": "Engine", "fmt": {           "len": 8, "max": 25.5, "div": 10, "unit": "unknown" }, "name": "Fuel injection volume control, cylinder 1"},
     {"id": "TRITON_O_E_P_C_O_O_P_2", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 25.5, "div": 10, "unit": "unknown" }, "name": "Fuel injection volume control, cylinder 2"},
     {"id": "TRITON_O_E_P_C_O_O_P_3", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 25.5, "div": 10, "unit": "unknown" }, "name": "Fuel injection volume control, cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "46"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "46"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TRITON_BAT_T", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Battery temperature"}
   ]},
@@ -287,11 +287,11 @@
   "signals": [
     {"id": "TRITON_FUEL_T", "path": "Fuel", "fmt": {"bix": 32, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "4A"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "4A"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TRITON_CYCLE_CONS", "path": "Engine", "fmt": { "len": 8, "max": 127, "div": 2, "unit": "unknown" }, "name": "Cycle consumption"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "4B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "4B"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TRITON_OE_PE_P_C", "path": "Engine", "fmt": {          "len": 8, "max": 127,  "min": -128,            "add": -128, "unit": "scalar"       }, "name": "Main injection timing"},
     {"id": "TRITON_EP_P_C_O",  "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 25.5,              "div": 10,              "unit": "milliseconds" }, "name": "Fuel injection interval"}
@@ -312,7 +312,7 @@
   "signals": [
     {"id": "TRITON_DPF_REGEN", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Particulate filter regeneration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "5B"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "5B"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "TRITON_EXH_GAS_T_AFTER_DPF", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 1075, "min": -200, "mul": 5,  "add": -200, "unit": "celsius" }, "name": "Exhaust gas temperature after DPF"},
     {"id": "TRITON_DPF_MAX_T_2",         "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 2150, "min": -400, "mul": 10, "add": -400, "unit": "celsius" }, "name": "Diesel particulate filter, maximum temperature 2"}
