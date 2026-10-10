@@ -74,7 +74,7 @@
   ]},
 { "hdr": "6A0", "rax": "514", "fcm1": true, "cmd": {"21": "AD"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
-    {"id": "TRITON_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "nullmax": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+    {"id": "TRITON_ODO", "path": "Trips", "fmt": { "len": 24, "blsb": true, "max": 16777215, "nullmax": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "6A0", "rax": "514", "fcm1": true, "cmd": {"21": "AF"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
